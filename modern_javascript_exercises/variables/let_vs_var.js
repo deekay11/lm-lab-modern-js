@@ -6,7 +6,7 @@ function count() {
   for (let i = 0; i < 5; i++) {
     console.log(i + " inside the forLoop");
   }
-  console.log(i + " outside the forLoop");
+  //console.log(i + " outside the forLoop");
 }
 
  count(); // <---- uncomment me!
