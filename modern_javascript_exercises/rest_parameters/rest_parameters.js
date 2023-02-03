@@ -1,9 +1,9 @@
 // Instructions can be found in rest_parameters.md
 
-export function add(...args) {
+export function add(...nums) {
   let sum = 0;
-  for (const arg of args) {
-    sum += arg;
+  for (const num of nums) {
+    sum += num;
   }
   return sum;
 }
