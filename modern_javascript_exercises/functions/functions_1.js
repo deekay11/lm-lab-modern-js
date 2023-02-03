@@ -18,7 +18,12 @@ people.forEach(logPerson);
 
 // This is a traditional function declaration in JavaScript where a function is defined and stored in a variable
 
-let performLogPerson = logPerson(person);
+const performLogPerson = function logPerson(person) {
+  console.log("The person is " + person);
+}
+
+people.forEach(performLogPerson);
+
 
 // Arrow Functions in a Variable
 // Write a version of logPerson() as an Arrow Function and store it in a variable called arrowVersionOfLogPerson
