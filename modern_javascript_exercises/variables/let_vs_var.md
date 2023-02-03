@@ -16,6 +16,15 @@ You'll notice that we can access the value of `i` inside _and outside_ of the fo
 
 ...
 
+//Results
+0 inside the forLoop
+1 inside the forLoop
+2 inside the forLoop
+3 inside the forLoop
+4 inside the forLoop
+5 outside the forLoop
+Not today, pal! �
+
 Well, that's interesting! 😯
 
 As you can imagine, this isn't the behaviour that we want...
@@ -27,6 +36,8 @@ Another problem with var is that we can overwrite it.
 This might not seem like a big deal... but in a massive code base - overwriting variables without realising is a big issue 🙈
 
 👉 Replace all the vars in this file with `let` so we get the behaviour we expect!
+
+// The code would throw a SyntaxError: Identifier 'greeting' has already been declared.
 
 ## Handy Hint:
 

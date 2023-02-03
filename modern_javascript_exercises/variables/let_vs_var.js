@@ -9,11 +9,11 @@ function count() {
   console.log(i + " outside the forLoop");
 }
 
-// count(); // <---- uncomment me!
+ count(); // <---- uncomment me!
 
 // Another problem with var is that we can overwrite it, like this:
 
 var greeting = "Hello 😘";
 var greeting = "Not today, pal! 😤";
 
-// console.log(greeting) // <----- uncomment me!
+console.log(greeting) // <----- uncomment me!
